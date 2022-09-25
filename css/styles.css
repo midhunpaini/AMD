@@ -1,0 +1,257 @@
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    padding: 0;
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.e{
+    color: white;
+    margin-right: 3rem;
+}
+
+#navigation{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: .12rem;
+    padding: 0;
+    background-color: black;
+}
+#nav-item{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: baseline;
+    background-color: black;
+}
+#header button{
+    border-radius: 0;
+    border: 0 black;
+    color: white;
+    background-color: black;
+}
+.logo{
+    height: 4.2rem;
+    display: inline;
+}
+.a1{
+    color: white;
+}
+.a1:hover{
+    background-color: white;
+    color: black;    
+}
+.tb{
+color: white;
+background-color: white;
+border-radius: 0;
+padding: 0;
+border: 0;
+}
+.sbox{
+    border-radius: 0;
+}
+.sb{
+    border-radius: 0;
+    color: white;
+    border: black;
+}
+.sb:hover{
+    background-color: white;
+    color: black;
+}
+.sec1{
+   margin: 0;
+   
+   background-size: cover; 
+   background-repeat: no-repeat;  
+   background-attachment: fixed;
+   background-position: center; 
+ 
+}
+
+.c1{
+    background-color: rgba(0,0,0,.9);
+    border-radius: 0;
+    margin-top: 5%;
+    margin-right: 3rem;
+    margin-bottom: 5%;
+}
+.c-button{
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-decoration: none !important;
+    background: transparent;
+    min-width: 200px;
+    max-width: 100%;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: normal;
+}
+.c-button:hover{
+    background-color: rgb(70, 64, 64);
+    color: rgb(241, 241, 241);
+}
+
+.h21{
+    color: white;
+}
+.h31{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.sc1,.sc2,.sc3{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.S2B{
+    border-radius: 0;
+    border-width: 2.5px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.S2B2{
+    border-radius: 0;
+    border-width: 2.5px;
+    border-color: white;
+    background-color: #ed1c24 !important;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;  
+    text-align: center;
+    height: 3rem;
+   
+}
+.s3card{
+    border-radius: 0;
+    background-color: rgba(189, 189, 201, .9);;
+}
+#button:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.sec4{    
+  background-image: url("../images/sec4-bimg.jpg");  
+
+  padding: 0;
+  align-items: center;
+  margin: 0;
+}
+.s4card{
+    background-color: rgba(0,0,0,0); 
+
+}
+.s4h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+.s4p{
+    color: white;
+    font-size: 1.5rem;
+}
+.cursor{
+    animation: blink 1s infinite;
+}
+.s4button{
+    border-radius: 0;
+    border-width: 2.5px;
+    border-color: white;
+    background-color:rgba(0,0,0,0);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.s4button:hover{
+    color: white;
+    border-color: black;
+    background-color: rgb(224, 156, 156);
+    border-width: 3px;
+}
+.sec5{
+    background-image: url("../images/background-1920x600.jpg");
+    background-color: rgb(236, 232, 232);
+}
+.s5card{
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    padding: 0;
+    width: fit-content;
+}
+.s5button{
+    border-radius: 0;
+    border-width: 2.5px;
+    border-color: white;
+    background-color:rgba(0,0,0,0);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700; 
+    padding-left: 2rem;
+    padding-right: 2rem;    
+}    
+.s5button:hover{
+    border-color: black;
+    background-color: rgb(175, 115, 115);
+}
+.sec6{
+    background-color: black;
+}
+hr{    
+    width: 90%;    
+    color: grey;
+    
+}
+.s6button{
+    color: white;
+}
+.s6button:hover{
+    color: rgb(85, 83, 83);
+}
+.sec6-1{
+    color: white;
+}
+.sec6-1:hover{
+    color: grey;
+}
+.email{
+    background-color: gray;
+    padding-right: 30rem;
+    margin-right: 15rem;
+}
+.social{
+    height: 2rem;
+}
+.footer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto;
+}
+.fp{
+font-size: .7rem;
+color: white;
+}
+.sec7-1{
+    font-size: .9rem;
+    color: white;
+}
